@@ -1,10 +1,10 @@
 import React from "react";
-import HomePage from "./pages/HomePage";
+import Router from "./router";
 
 function App() {
   return (
     <React.Fragment>
-      <HomePage />
+      <Router />
     </React.Fragment>
   );
 }

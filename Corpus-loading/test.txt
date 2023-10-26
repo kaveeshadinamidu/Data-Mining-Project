@@ -2,4 +2,4 @@ curl --cacert http_ca.crt -u elastic:$ELASTIC_PASSWORD -X PUT "https://localhost
 
 curl --cacert http_ca.crt -u elastic:$ELASTIC_PASSWORD -X POST "https://localhost:9200/search-corpus/_bulk?pretty" -H "Content-Type: application/json" --data-binary @data_file.json
 
-export ELASTIC_PASSWORD="*JiXm9p=f2rSP49_o-+U"
+export ELASTIC_PASSWORD="=lv8xgJJ-Eklq4IsUZPY"

@@ -44,22 +44,7 @@
         }
       },
       "poet": {
-        "type": "text",
-        "analyzer": "plain",
-        "fields": {
-          "case_insensitive": {
-            "type": "text",
-            "analyzer": "case_insensitive"
-          },
-          "inflections": {
-            "type": "text",
-            "analyzer": "inflections"
-          },
-          "case_insensitive_and_inflections": {
-            "type": "text",
-            "analyzer": "case_insensitive_and_inflections"
-          }
-        }
+        "type": "keyword"
       },
       "line": {
         "type": "text",
@@ -104,22 +89,7 @@
         }
       },
       "book": {
-        "type": "text",
-        "analyzer": "plain",
-        "fields": {
-          "case_insensitive": {
-            "type": "text",
-            "analyzer": "case_insensitive"
-          },
-          "inflections": {
-            "type": "text",
-            "analyzer": "inflections"
-          },
-          "case_insensitive_and_inflections": {
-            "type": "text",
-            "analyzer": "case_insensitive_and_inflections"
-          }
-        }
+        "type": "keyword"
       },
       "year": {
         "type": "integer"
